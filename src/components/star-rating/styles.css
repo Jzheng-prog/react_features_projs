@@ -1,5 +1,5 @@
-.action{
-    color: yellow;
+.active{
+    color: rgb(204, 204, 41);
 }
 .inActive{
     color: black;

@@ -1,10 +1,12 @@
-.container{
+
+.container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:600px;
-    height:450px;
+    width: 600px;
+    height: 450px;
+
 }
 
 .curr_img{
@@ -26,20 +28,4 @@
 }
 .arrow-right{
     right: 1rem;
-}
-
-.circle-indicator{
-    display: flex;
-    position: absolute;
-    bottom: 1rem;
-}
-.curr_indicator{
-    background-color: white;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    border:none;
-    outline:none;
-    margin: 0 0 2rem;
-    cursor: pointer;
 }

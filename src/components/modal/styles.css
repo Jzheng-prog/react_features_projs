@@ -1,0 +1,39 @@
+.modal{
+    position:fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(250, 121, 121);
+}
+.contentModal{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid red;
+    width: 80%;
+}
+.close-modal-icon{
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+}
+.headerModal{
+    padding: 4px 16px;
+    background-color: green;
+    color: white;
+}
+
+.bodyModal{
+    padding: 2px 15px;
+    height: 200px;
+}
+.footerModal{
+    padding: 2px 16px;
+    background-color: green;
+    color: white;
+}

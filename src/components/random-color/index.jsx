@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-
+import './styles.css'
 const RandomColor = () => {
 
     const [typeOfColor, setTypeOfColor] = useState('hex')
@@ -33,10 +33,10 @@ const RandomColor = () => {
   return (
     <div style={{
         background:color,
-        height:"100vh",
-        width:"100vw"
-        
-    }}>
+        width: "100vw",
+        height:'100vh'
+        }}>
+            
         <button onClick={()=>setTypeOfColor('hex')}>Create Hex Color</button>
         <button onClick={()=>setTypeOfColor('rgb')}>Create RBG Color</button>
         <button onClick={typeOfColor === 'hex'? createRandomHexColor : createRandomRGBColor}>Generate Random Color</button>
