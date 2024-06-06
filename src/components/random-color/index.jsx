@@ -34,7 +34,8 @@ const RandomColor = () => {
     <div style={{
         background:color,
         width: "100vw",
-        height:'100vh'
+        height:'100vh',
+        marginTop:'100px'
         }}>
             
         <button onClick={()=>setTypeOfColor('hex')}>Create Hex Color</button>

@@ -27,22 +27,22 @@ const Accordian = () => {
     }
     //console.log(selected, multiple)
   return (
-    <div className="wrapper">
+    <div className="wrapperAcc">
         <button onClick={()=>setEnableMulti(!enableMulti)}>Enable Mutiple</button>
       <div className="accordian">
         {
             data && data.length > 0?
             data.map(item => 
-                <div className="item" key = {item.id}>
+                <div className="itemAcc" key = {item.id}>
                     <div onClick={ enableMulti? ()=> handleMultiSelection(item.id):()=>handleSingleSelected(item.id)} className="title">
                         <h3>{item.question}</h3>
                         <span>+</span>
                     </div>
                     {
                         enableMulti? multiple.indexOf(item.id) !== -1 && 
-                        (<div className="content">{item.answer}</div>)
+                        (<div className="contentAcc">{item.answer}</div>)
                         :
-                        selected === item.id && (<div className="content" >{item.answer}</div>)
+                        selected === item.id && (<div className="contentAcc" >{item.answer}</div>)
 
                     }
                 </div>

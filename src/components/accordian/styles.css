@@ -1,24 +1,27 @@
 
-.wrapper {
+.wrapperAcc {
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding-top: 10%;
 }
-.wrapper button{
+.wrapperAcc button{
     padding: 10px 20px;
     color: white;
     background: #614101;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+    margin-top: 10%;
 }
 .accordian{
     width: 500px;
+
 }
-.item {
+.itemAcc {
     background-color: #614101;
     margin-bottom: 10px;
     padding: 10px 20px;
@@ -30,7 +33,7 @@
     align-items: center;
     cursor: pointer;
 }
-.content{
+.contentAcc{
     color: white;
     height: auto;
 }
