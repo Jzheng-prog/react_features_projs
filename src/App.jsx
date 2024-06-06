@@ -13,6 +13,7 @@ import QRCodeGenerator from './components/qr-code-generator/QRCodeGenerator'
 import RandomColor from './components/random-color'
 import ScrollIndicator from './components/scroll-indicator/Scroll-Indicator'
 import ScrollToTopAndBottom from './components/scroll-to-top'
+import ScrollToSection from './components/scroll-to-top/scroll-to-section'
 import SearchAutoComplete from './components/searchAutoComplet/SearchAutoComplete'
 import StarRating from './components/star-rating'
 import TicTackToe from './components/tic-tact-toe/TicTackToe'
@@ -43,7 +44,8 @@ function App() {
       {/* <TestFetchHook/> */}
       {/* <UseOnClickOutSideTest/>
       <UseWindowResizetest/> */}    
-      <ScrollToTopAndBottom/>
+      {/* <ScrollToTopAndBottom/> */}
+      <ScrollToSection/>
     </>
   )
 }
