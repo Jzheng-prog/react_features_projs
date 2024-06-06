@@ -57,7 +57,11 @@ const SearchAutoComplete = () => {
     <div className="search-container">
         {
             loading? <h1>Loading Data...</h1> :
-            <input onChange={handleChange} value={searchParam}name="search-user" placeholder="Search User" />
+            <div>
+                <h1>Filter Search</h1>
+                <input onChange={handleChange} value={searchParam}name="search-user" placeholder="Search User" />
+
+            </div>
         }
         {   
             showDrop && <Suggestions handleClick={handleClick}data ={filteredUsers}/>

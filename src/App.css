@@ -40,3 +40,79 @@
 .read-the-docs {
   color: #888;
 }
+.weather-Container{
+  border-top: black;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.weather-App {
+  background-color: #bbd1f3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.weather-App h1 {
+  margin-top: 0;
+  font-size: 2em;
+  color: black;
+}
+
+.weather-App .city-name h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.weather-App .city-name span {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.weather-App .date h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.weather-App p {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.weather-App .loading {
+  font-size: 1.2em;
+  color: #007BFF;
+}
+
+.weather-App input[type="text"] {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.weather-App button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-App button:hover {
+  background-color: #0056b3;
+}

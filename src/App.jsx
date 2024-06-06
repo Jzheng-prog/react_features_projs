@@ -20,12 +20,13 @@ import TicTackToe from './components/tic-tact-toe/TicTackToe'
 import TestFetchHook from './components/use-fetch/test'
 import UseOnClickOutSideTest from './components/use-outside-click/test'
 import UseWindowResizetest from './components/use-window-resize/test'
+import Weather from './components/weatherApp/weather'
 
 function App() {
 
   return (
     <>
-      {/* <Accordian/>
+      <Accordian/>
       <RandomColor/>
       <StarRating/>
       <LoadMore/>
@@ -34,18 +35,19 @@ function App() {
       <ScrollIndicator url ={"https://dummyjson.com/products?limit=100"}/>
       <ImgSlider url = {'https://picsum.photos/v2/list'} limit = {'10'}/>
       <TabParent/>
-      <ModalParent/> */}
-      {/* <GitHubFinder/> */}
-      {/* <SearchAutoComplete/> */}
-      {/* <TicTackToe/> */}
-      {/* <FeatureFlagsGlobalState>
+      <ModalParent/>
+      <GitHubFinder/>
+      <SearchAutoComplete/>
+      <TicTackToe/>
+      <FeatureFlagsGlobalState>
         <FeatureFlags/>
-      </FeatureFlagsGlobalState> */}
-      {/* <TestFetchHook/> */}
-      {/* <UseOnClickOutSideTest/>
-      <UseWindowResizetest/> */}    
-      {/* <ScrollToTopAndBottom/> */}
+      </FeatureFlagsGlobalState>
+      <TestFetchHook/>
+      <UseOnClickOutSideTest/>
+      <UseWindowResizetest/>  
+      <ScrollToTopAndBottom/>
       <ScrollToSection/>
+      <Weather/>
     </>
   )
 }
